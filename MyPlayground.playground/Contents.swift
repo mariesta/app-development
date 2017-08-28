@@ -91,5 +91,41 @@ var totalCost = foodMenu["scrambled eggs"]! + foodMenu["salmon side"]! + foodMen
 print("The total is \(totalCost)")
 
 
+// If statements
 
+var age = 13
+
+if age >= 18 {
+    print("You can play")
+} else {
+    print("Sorry, you are too young")
+}
+
+var name2 = "Marie"
+
+if name2 == "Marie" {
+    print("Hi \(name) you can play")
+} else {
+    print("Sorry \(name) you cannot play")
+}
+
+if name2 == "Kirsten" || name2 == "Marie" {
+    print("Welcome \(name2)")
+}
+
+// Challenge
+
+var username = "mariesta"
+
+var password = "test"
+
+if username == "mariesta" && password == "test"{
+    print("Welcome \(username)")
+} else if username == "mariesta" && password != "test" {
+    print("Incorrect Password")
+} else if username != "mariesta" && password == "test" {
+    print("Incorrect Username")
+} else {
+    print("Incorrect Credentials")
+}
 
