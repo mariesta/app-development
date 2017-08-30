@@ -129,3 +129,32 @@ if username == "mariesta" && password == "test"{
     print("Incorrect Credentials")
 }
 
+// Loops
+
+for i in 1 ..< 10 {
+    print(i)
+}
+
+var prices = [3.99, 4.99, 2.99]
+
+for price in prices {
+    print(price)
+}
+
+var totalPrice = 0.0
+for (index, value) in prices.enumerated() {
+    totalPrice = totalPrice + value
+}
+
+print(totalPrice)
+
+
+// Challenge
+
+var arr:[Double] = [4, 9, 13]
+
+for (index, value) in arr.enumerated() {
+    arr[index] = value / 2
+}
+
+print(arr)
