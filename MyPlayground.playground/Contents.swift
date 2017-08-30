@@ -158,3 +158,24 @@ for (index, value) in arr.enumerated() {
 }
 
 print(arr)
+
+// While Loops
+
+var i = 1
+
+while i < 10 {
+    print(i)
+    i += 1
+}
+
+// Challenge
+
+var arr3 = [1, 2, 3, 4, 5]
+var j = 0
+
+while j < arr3.count {
+    arr3[j] = arr3[j] - 1
+    j += 1
+}
+
+print(arr3)
