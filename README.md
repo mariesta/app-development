@@ -7,3 +7,5 @@
 ### [Stopwatch](https://github.com/mariesta/app-development/tree/master/Timer%20App) :
 
 Simple app to start, pause and refresh a stopwatch.
+
+![Stopwatch Screenshot](stopwatch-screenshot.png "Stopwatch Screenshot")
