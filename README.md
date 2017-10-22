@@ -4,6 +4,6 @@
 
 ## Completed Apps:
 
-# [Stopwatch](https://github.com/mariesta/app-development/tree/master/Timer%20App) :
+### [Stopwatch](https://github.com/mariesta/app-development/tree/master/Timer%20App) :
 
 Simple app to start, pause and refresh a stopwatch.
