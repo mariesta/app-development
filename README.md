@@ -8,4 +8,4 @@
 
 Simple app to start, pause and refresh a stopwatch.
 
-<img src="stopwatch-screenshot.png" width="50">
+<img src="stopwatch-screenshot.png" width="250">
