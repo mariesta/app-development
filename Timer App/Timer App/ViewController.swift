@@ -11,17 +11,18 @@ import UIKit
 class ViewController: UIViewController {
     var seconds = 0
     var timer = Timer()
+    var isRunning = false
 
-    @IBOutlet weak var secondsLabel: UILabel!
+    @IBOutlet weak var timeLabel: UILabel!
     
     @IBAction func refresh(_ sender: Any) {
         seconds = 0;
-        secondsLabel.text = "00:00:00"
+        timeLabel.text = "00:00:00"
     }
    
     @objc func result() {
         seconds += 1
-        secondsLabel.text = timeString(time: TimeInterval(seconds))
+        timeLabel.text = timeString(time: TimeInterval(seconds))
         
     }
     
@@ -33,11 +34,18 @@ class ViewController: UIViewController {
     }
 
     @IBAction func play(_ sender: Any) {
-        timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(ViewController.result), userInfo: nil, repeats: true)
+        if(!isRunning) {
+            timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(ViewController.result), userInfo: nil, repeats: true)
+            isRunning = true
+        }
+        
     }
     
     @IBAction func pause(_ sender: Any) {
-        timer.invalidate()
+        if(isRunning) {
+            timer.invalidate()
+            isRunning = false
+        }
     }
 
     override func viewDidLoad() {
