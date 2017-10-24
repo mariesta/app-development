@@ -14,7 +14,7 @@ Simple app to start, pause and refresh a stopwatch using the [Timer](https://dev
 
 Very basic to do list app. You can add and remove items. Also uses persistent storage with [User Defaults](https://developer.apple.com/documentation/foundation/userdefaults)
 
-<img src="todoList-FirstView.png" width="250"><img src="todoList-SecondView.png" width="250">
+<img src="toDoList-FirstView.png" width="250"><img src="toDoList-SecondView.png" width="250">
 
 ### [Weather Forecast](https://github.com/mariesta/app-development/tree/master/Weather%20Forecast) :
 
