@@ -24,6 +24,6 @@ Extracts the weather forecast from https://www.weather-forecast.com.
 
 ### [Tic Tac Toe](https://github.com/mariesta/app-development/tree/master/TicTacToe) :
 
-Basic Tic Tac Toe game with noughts and crosses involving two players.
+Basic Tic Tac Toe game with noughts and crosses involving two players. Built using [tags](https://developer.apple.com/documentation/uikit/uiview/1622493-tag).
 
 <img src="TicTacToe-GameInProgress.png" width="250"><img src="TicTacToe-GameWon.png" width="250">
