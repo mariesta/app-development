@@ -21,3 +21,9 @@ Very basic to do list app. You can add and remove items. Also uses persistent st
 Extracts the weather forecast from https://www.weather-forecast.com.
 
 <img src="weatherApp-SuccessMessage.png" width="250"><img src="weatherApp-ErrorMessage.png" width="250">
+
+### [Tic Tac Toe](https://github.com/mariesta/app-development/tree/master/TicTacToe) :
+
+Tic Tac Toe game involving two players.
+
+<img src="TicTacToe-GameInProgress.png" width="250"><img src="TicTacToe-GameWon" width="250">
