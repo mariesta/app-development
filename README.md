@@ -26,4 +26,4 @@ Extracts the weather forecast from https://www.weather-forecast.com.
 
 Tic Tac Toe game involving two players.
 
-<img src="TicTacToe-GameInProgress.png" width="250"><img src="TicTacToe-GameWon" width="250">
+<img src="TicTacToe-GameInProgress.png" width="250"><img src="TicTacToe-GameWon.png" width="250">
