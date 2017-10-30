@@ -27,3 +27,9 @@ Extracts the weather forecast from https://www.weather-forecast.com.
 Basic Tic Tac Toe game with noughts and crosses involving two players. Built using [tags](https://developer.apple.com/documentation/uikit/uiview/1622493-tag).
 
 <img src="TicTacToe-GameInProgress.png" width="250"><img src="TicTacToe-GameWon.png" width="250">
+
+### [Map](https://github.com/mariesta/app-development/tree/master/Map) :
+
+A map with two pins: one for the WorkIn Coworking Space in Seville and the other for the user's current location. Built using [MKMapView](https://developer.apple.com/documentation/mapkit/mkmapview).
+
+<img src="Map_screenshot.png" width="250">
