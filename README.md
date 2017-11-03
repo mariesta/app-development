@@ -33,3 +33,9 @@ Basic Tic Tac Toe game with noughts and crosses involving two players. Built usi
 A map with two pins: one for the WorkIn Coworking Space in Seville and the other for the user's current location. Built using [MKMapView](https://developer.apple.com/documentation/mapkit/mkmapview).
 
 <img src="Map_screenshot.png" width="250">
+
+### [Blog Reader](https://github.com/mariesta/app-development/tree/master/Blog%20Reader) :
+
+Gets the list of blog posts from https://googleblog.blogspot.com thanks to the Blogger API. The result is then parsed as a JSON dictionary and saved in a Blog Item Object with a title and content attributes. This app uses [Core Data](https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/CoreData/index.html) for storing.
+
+<img src="BlogReader-TableView.png" width="250"><img src="BlogReader-DetailView.png" width="250">
